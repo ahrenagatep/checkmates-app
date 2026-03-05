@@ -6,7 +6,7 @@ const receiptRoutes = require("./routes/receipt.routes");
 const app = express();
 
 // Middleware
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 // Mounting routes
 app.use("/health", healthRoutes);
