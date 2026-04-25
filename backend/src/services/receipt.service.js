@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const FormData = require('form-data');
+const { parseReceiptText } = require('./parser.service.js');
 
 async function processReceipt(image) {
     try {
@@ -26,9 +27,11 @@ async function processReceipt(image) {
         }
 
         const rawText = data.ParsedResults[0].ParsedText
-
-        // TODO: Parse rawText into structured data
-        const structuredData = parseReceiptText(rawText);
+        console.log("RAW TEXT:")
+        console.log(rawText)
+        // parse rawText into structured data (FINISHED)
+        // NEW TODO: FIX POSSIBLE PRICING ERRORS?
+        const structuredData = await parseReceiptText(rawText);
 
         return structuredData;
 
@@ -36,18 +39,6 @@ async function processReceipt(image) {
         throw new Error(`OCR processing failed: ${error.message}`);
     }
 };
-
-function parseReceiptText(rawText) {
-    const structuredData = {
-        items: [],
-        subtotal: 0,
-        tax: 0,
-        total: 0,
-        rawText: rawText // kept for debugging purposes
-    };
-
-    return structuredData;
-}
 
 module.exports = {
     processReceipt
