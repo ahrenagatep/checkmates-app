@@ -1,5 +1,9 @@
 # Checkmates
-
+<div align="center">
+  <img src="images/homescreen.png" alt="Home Screen Draft" width="200"/>
+  <img src="images/receiptreview.png" alt="Receipt Review Draft" width="200"/>
+  <img src="images/splitsummary.png" alt="Split Summary Draft" width="200"/>
+</div>
 ## About The Project
 Checkmates is a mobile-first application designed to simplify splitting restaurant receipts. Instead of manually calculating totals, users can scan a receipt, automatically extract items, assign them to individuals, and calculate accurate totals.
 
