@@ -52,3 +52,4 @@ Integrations:
 ## Contact
 - Name: Ahren Agatep
 - LinkedIn: https://www.linkedin.com/in/ahrenagatep/
+- Email: 1ahren7&#64;gmail&#46;com
