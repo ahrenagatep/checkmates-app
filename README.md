@@ -1,4 +1,5 @@
 # Checkmates
+
 ## About The Project
 Checkmates is a mobile-first application designed to simplify splitting restaurant receipts. Instead of manually calculating totals, users can scan a receipt, automatically extract items, assign them to individuals, and calculate accurate totals.
 
@@ -15,11 +16,11 @@ Core functionality:
 
 ## Built With
 Backend:
-- Node.js
-- Express.js
+- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 Frontend:
-- React
+- ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 Integrations:
 - OCR API using OCR.space
