@@ -14,7 +14,6 @@ Core functionality:
 ---
 
 ## Built With
-
 Backend:
 - Node.js
 - Express.js
@@ -32,3 +31,24 @@ Integrations:
 ### Prerequisites
 - Node.js (v18+ recommended)
 - npm
+
+### Installation
+#### Checkmates is still in development, usage is not currently available yet
+
+---
+
+## Roadmap
+- [x] Backend setup via Express server
+- [x] OCR API integration
+- [x] Receipt parsing logic (prototype using Gemini)
+  - [ ] Finalize parsing logic
+- [ ] Frontend development
+- [ ] Item assignment system
+- [ ] Tax and tip calculation
+- [ ] Receipt tracking / persistence
+
+---
+
+## Contact
+- Name: Ahren Agatep
+- LinkedIn: https://www.linkedin.com/in/ahrenagatep/
